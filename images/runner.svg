@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Человек бежит по дороге к закату, над ним светится обратный отсчёт">
+  <defs>
+    <linearGradient id="sk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a1030"/><stop offset=".55" stop-color="#c2410c"/><stop offset="1" stop-color="#fbbf24"/></linearGradient>
+    <radialGradient id="sun" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff3c4"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="900" height="480" fill="url(#sk)"/>
+  <circle cx="450" cy="285" r="150" fill="url(#sun)"/>
+  <g fill="#0b0f1a"><rect x="40" y="215" width="70" height="105"/><rect x="120" y="180" width="55" height="140"/><rect x="190" y="235" width="80" height="85"/><rect x="620" y="200" width="60" height="120"/><rect x="690" y="165" width="70" height="155"/><rect x="775" y="225" width="85" height="95"/></g>
+  <polygon points="0,480 900,480 520,305 380,305" fill="#0b0f1a"/>
+  <polygon points="0,320 900,320 900,480 0,480" fill="#0b0f1a" opacity=".0"/>
+  <g stroke="#fbbf24" stroke-width="5" stroke-dasharray="26 22" opacity=".8"><path d="M450 480 L450 308"/></g>
+  <rect x="0" y="305" width="900" height="6" fill="#0b0f1a"/>
+  <!-- бегущий человек -->
+  <g transform="translate(445 330) scale(2.2)" stroke="#05070d" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <circle cx="14" cy="-72" r="9" fill="#05070d"/>
+    <path d="M10 -60 L0 -30"/>
+    <path d="M8 -55 L28 -46 L38 -56"/>
+    <path d="M6 -52 L-14 -44 L-24 -30"/>
+    <path d="M0 -30 L18 -14 L10 6"/>
+    <path d="M0 -30 L-18 -12 L-36 -2"/>
+  </g>
+  <circle cx="487" cy="338" r="4" fill="#39ff88"/>
+  <!-- табло -->
+  <g transform="translate(300 40)">
+    <rect width="300" height="84" rx="12" fill="#05070d" opacity=".85" stroke="#39ff88" stroke-width="2"/>
+    <text x="150" y="56" text-anchor="middle" font-family="Share Tech Mono, Consolas, monospace" font-size="38" fill="#39ff88">00:00:00:01</text>
+  </g>
+</svg>
